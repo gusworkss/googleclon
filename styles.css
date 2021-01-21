@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    height: 7rem;
+}
+
+#cuadritos {
+    width: 2rem;
+    height: 2rem;
+}
+
+#perfil {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50rem;
+}
+
+.ul-header-container {
+    align-items: center;
+    top: .3rem;
+    right: 3.3rem;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.ul-header-container li a {
+    padding-left: 2rem;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.logo {
+    top: 14rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo figure {
+    margin-bottom: 3rem;
+}
+
+.search-bar__item {
+    width: 60rem;
+    min-width: 40;
+    height: 4.5rem;
+    border-radius: 5rem;
+    border: .1rem solid rgb(207, 207, 207);
+    outline-style: none;
+    padding-left: 2rem;
+    font-size: 1.6rem;
+}
+
+.search-bar__item::before {
+    
+}
+
+.button-container {
+    display: flex;
+    position: relative;
+    top: 3rem;
+    width: 60rem;
+    height: 4.5rem;
+    justify-content: center;
+}
+
+.button-search {
+    background-color: rgb(221, 228, 230);
+    position: relative;
+    width: 27%;
+    height: 4rem;
+    right: .5rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+}
+
+.button-lucky {
+    background-color: rgb(221, 228, 230);
+    color: black);
+    position: relative;
+    height: 4rem;
+    left: .5rem;
+    width: 30%;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+}
+
+.tag-line {
+    top: 5rem;
+    position: relative;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tag-line a {
+    text-decoration: none;
+}
+
+.button-container button:hover {
+    border: solid .1rem rgb(179, 190, 194);
+    border-style: outset;
+    cursor: pointer;
+}
+
+
+footer {
+    border: .05rem solid rgb(207,207, 207);
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 9rem;
+    background-color: rgb(229, 226, 226);
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.div-mexico {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    border-bottom: .05rem solid rgb(207,207, 207);
+}
+
+.div-mexico span {
+    color: rgb(153, 149, 149);
+    position: relative;
+    font-size: 1.7rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    left: 2rem;
+    top: 1rem;
+}
+
+.list-left, .list-right {
+    display: flex;
+}
+
+.list-left {
+    top: 2rem;
+    left: 2rem;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.list-right {
+    right: 2rem;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.list-left li a {
+    color:rgb(153, 149, 149);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding-right: 3rem;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.list-right li a {
+    color:rgb(153, 149, 149);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.list-left li, .list-right li{
+    list-style: none;
+}
+
+
